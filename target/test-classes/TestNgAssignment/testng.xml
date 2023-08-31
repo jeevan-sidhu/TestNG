@@ -1,0 +1,19 @@
+<suite name="TestNg Practice">
+	<test name="DemoTest1" allow-return-values="true">
+		<classes>
+			<class name="TestNgAssignment.TestSelenium" />
+		</classes>
+	</test>
+	<test name="DemoTest2" allow-return-values="true">
+		<classes>
+			<class name="TestNgAssignment.Parameterization" />
+		</classes>
+	</test>
+	<test name="SystemTesting" allow-return-values="true">
+		<classes>
+			<class name="TestNgAssignment.TestSelenium" />
+			<class name="TestNgAssignment.Parameterization" />
+		</classes>
+	</test>
+
+</suite>
